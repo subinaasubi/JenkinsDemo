@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class AmstrongEg {
 
 	public static void main(String[] args) {
-		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the number");
-		int num=sc.nextInt();
+		
+		int num=17;
 		int temp=num,digit=0,remainder;
 		double sum=0;
 		while(temp>0) {
